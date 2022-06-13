@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aula-backend", "aula-backend\aula-backend.csproj", "{73EC884E-87A2-4727-A21F-95B28DDB1C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aula-backend", "aula-backend\aula-backend.csproj", "{73EC884E-87A2-4727-A21F-95B28DDB1C42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

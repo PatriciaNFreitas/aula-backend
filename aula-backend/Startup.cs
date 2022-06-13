@@ -27,7 +27,7 @@ namespace aula_backend
             services.AddDbContext<Models.ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
-
+            
             services.AddControllersWithViews();
         }
 
@@ -37,6 +37,7 @@ namespace aula_backend
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
             }
             else
             {
